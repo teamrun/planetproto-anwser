@@ -5,7 +5,7 @@
 
 var Robot = {
     new: function(){
-        // 不能哟很难过Robot 应该用this
+        // 不能用Robot 应该用this
         return Object.create( this )
     }
 };
